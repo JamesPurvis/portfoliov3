@@ -3,6 +3,12 @@ nav {
     font-family: 'Share Tech Mono', monospace;
 }
 
+a {
+    scroll-behavior: smooth;
+}
+
+
+
 body {
     font-family: 'Share Tech Mono', monospace;
     width: 100vw;
@@ -21,6 +27,7 @@ body {
 
 section {
     scroll-snap-align: start;
+    scroll-behavior: smooth;
 }
 
 .navbar-brand {
